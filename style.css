@@ -235,7 +235,7 @@ width: 80%;
 
 .header__burger {
   display: none;
-  color: #156963;
+  color: #000000;
 }
 
 @media (max-width: 1200px) {
