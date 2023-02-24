@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <section class="main-section">
+                <header class="header">
+                    <a href="#" class="header__logo">
+                        <img src="icons/company_logo.svg" alt="Flowers">
+                    </a>
+                    <div class="header__burger">
+                        <span class="material-symbols-outlined" onclick="navToggle()">menu</span>
+                    </div>
+                    <div class="header__auth" id="headerAuth">
+                        <a class="btn btn_link" href="#">Sign up</a>
+                        <a class="btn btn_primary" href="#">Sign in</a>
+                        <span class="material-symbols-outlined" id="close" onclick="navToggle()">close</span>                            
+                    </div>
+                </header>
+                <div class="brand">
+                    <h1 class="brand__title">Kembang Flower Mantap</h1>
+                    <p class="brand__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                </div>
+            </section>
+            <section class="services-section">
+                <div class="services-section__item item">
+                    <div class="item__header">
+                        <div class="item__icon"><img src="icons/fast_delivery.svg" alt="Fast Delivery"></div>
+                        <div class="item__title">Fast Delivery</div>
+                    </div>
+                    <div class="item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                </div>
+                <div class="services-section__item item">
+                    <div class="item__header">
+                        <div class="item__icon"><img src="icons/service.svg" alt="Great Customer Service"></div>
+                        <div class="item__title">Great Customer Service</div>
+                    </div>
+                    <div class="item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                </div>
+                <div class="services-section__item item">
+                    <div class="item__header">
+                        <div class="item__icon"><img src="icons/og_plant.svg"Original Plants"></div>
+                        <div class="item__title">Original Plants</div>
+                    </div>
+                    <div class="item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                </div>
+                <div class="services-section__item item">
+                    <div class="item__header">
+                        <div class="item__icon"><img src="icons/dollar_symbol 1.svg" alt="Affordable Price"></div>
+                        <div class="item__title">Affordable Price</div>
+                    </div>
+                    <div class="item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </div>
+                </div>
+            </section>
+
+            <section class="featured-section">
+                <div class="featured-section__title">
+                    <h3>Featured Plants</h3>
+                </div>
+                <div class="featured-section_plant">
+                    <div class="section__flower">
+                        <div class="plant__pic"><img src="img/kaktus.png" alt="Kaktus Plants"></div>
+                        <div class="plant__title">Kaktus Plants</div>
+                        <div class="plant__price">IDR 85.000</div>
+                    </div>
+                    <div class="section__flower">
+                        <div class="plant__pic"><img src="img/landak.png" alt="Landak Plants"></div>
+                        <div class="plant__title">Landak Plants</div>
+                        <div class="plant__price">IDR 105.000</div>
+                    </div>
+                    <div class="section__flower">
+                        <div class="plant__pic"><img src="img/kecubung.png" alt="Kecubung Plants"></div>
+                        <div class="plant__title">Kecubung Plants</div>
+                        <div class="plant__price">IDR 85.000</div>
+                    </div>
+                    <div class="section__flower">
+                        <div class="plant__pic"><img src="img/kecubung_2.png" alt="Kecubung Plants"></div>
+                        <div class="plant__title">Kecubung Plants</div>
+                        <div class="plant__price">IDR 85.000</div>
+                    </div>
+                    <div class="section__flower">
+                        <div class="plant__pic"><img src="img/kecubung_3.png" alt="Kecubung Plants"></div>
+                        <div class="plant__title">Kecubung Plants</div>
+                        <div class="plant__price">IDR 85.000</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="shop-section shop">
+                <div class="shop__page">
+                    <div class="shop__title">Get your favourites plant on our shop now</div>
+                    <a class="btn btn_secondary btn__shop" href="#">Visit Shop</a>
+                </div>
+                <div class="shop__img">
+                    <img src="img/fav_plant.png" alt="Your favourite flower">
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
